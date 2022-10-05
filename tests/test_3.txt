@@ -1,0 +1,18 @@
+/*Test prime numbers */
+let
+ function is_prime(n: int): int=
+   let
+       var d := 2
+   in
+       while d<n & n%d<>0 do
+         d := d+1;
+	 n>1 & d=n
+       end
+in
+  let
+   var i:= scani()
+  in if is_prime(i) then
+   printi(1) //is a prime
+  else
+   printi(0) //isnt a prime
+  end

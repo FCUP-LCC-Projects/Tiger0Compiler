@@ -1,0 +1,10 @@
+//Expected fail, break outside of loop body
+
+let
+ var i := 2
+in
+ for d:=10 to 1 do
+    i := i*2;
+ break
+ print(i)
+
